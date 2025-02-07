@@ -79,8 +79,11 @@ Sign up for a [CometChat](https://app.cometchat.com/) account to obtain your app
         static String _apnProviderId = "";
      }
      ```
+     
 
-8. In the Run/Debug Configurations dropdown (on the top toolbar), select the preconfigured `sample_app_push_notification` run configuration. Connect a `physical device` or select an `emulator` from the Device Selector dropdown. Click the Run ▶ button to launch the app.
+6. In the Run/Debug Configurations dropdown (on the top toolbar), select the preconfigured `sample_app` run configuration. Connect a `physical device` or select an `emulator` from the Device Selector dropdown. Click the Run ▶ button to launch the app.
+
+   > **Note:** If the provisioning profile is not set up correctly in Xcode, you may encounter errors when running the app on a physical iOS device. Ensure that you have configured the provisioning profile before proceeding.
 
 
 ## Help and Support

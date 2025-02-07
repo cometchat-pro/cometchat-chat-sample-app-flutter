@@ -20,7 +20,7 @@ Sign up for a [CometChat](https://app.cometchat.com/) account to obtain your app
 - XCode
 - Pod (CocoaPods) for iOS
 - An iOS device or emulator with iOS 12.0 or above.
-- **Ensure that you have configured the provisioning profile in Xcode to run the app on a physical device.**
+- Ensure that you have configured the provisioning profile in Xcode to run the app on a physical device.
 
 **Android**
 - Android Studio
@@ -54,6 +54,9 @@ Sign up for a [CometChat](https://app.cometchat.com/) account to obtain your app
      ```
 
 6. In the Run/Debug Configurations dropdown (on the top toolbar), select the preconfigured `sample_app` run configuration. Connect a `physical device` or select an `emulator` from the Device Selector dropdown. Click the Run ▶ button to launch the app.
+
+   > **Note:** If the provisioning profile is not set up correctly in Xcode, you may encounter errors when running the app on a physical iOS device. Ensure that you have configured the provisioning profile before proceeding.
+
 
 ## Help and Support
 
