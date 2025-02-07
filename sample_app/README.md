@@ -43,15 +43,7 @@ Sign up for a [CometChat](https://app.cometchat.com/) account to obtain your app
 
 4. Run `flutter pub get` to fetch all dependencies.
 
-5. `[Optional]` Configure CometChat credentials:
-   - Open the `app_credentials.dart` file located at `sample_app/lib/app_credentials.dart` and enter your CometChat _`App ID`_, _`Region`_, and _`Auth Key`_:
-     ```dart
-     AppCredentials {
-        static String _appId = "YOUR_APP_ID";
-        static String _authKey = "YOUR_AUTH_KEY";
-        static String _region = "REGION";
-     }
-     ```
+5. `[Optional]` Enter your CometChat _`App ID`_, _`Region`_, and _`Auth Key`_ in the [sample_app/lib/app_credentials.dart](https://github.com/cometchat/cometchat-uikit-flutter/sample_app/lib/app_credentials.dart) file:https://github.com/cometchat/cometchat-uikit-flutter/blob/e1dfd619a25572345d2746d7c9f8ce173ba08139/sample_app/lib/app_credentials.dart#L4-L8
 
 6. In the Run/Debug Configurations dropdown (on the top toolbar), select the preconfigured `sample_app` run configuration. Connect a `physical device` or select an `emulator` from the Device Selector dropdown. Click the Run ▶ button to launch the app.
 
