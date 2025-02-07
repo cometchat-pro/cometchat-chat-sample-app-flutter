@@ -6,6 +6,9 @@
 
 This reference application showcases the integration of [**CometChat's Flutter UI Kit**](https://www.cometchat.com/docs/v4/flutter-uikit/overview) within an Flutter framework. It provides developers with examples of implementing real-time messaging and voice and video calling features in their Flutter-based applications.
 
+## 🚀 Try the New v5 UI Kit!
+Discover the all-new [v5 UI Kit](https://github.com/cometchat/cometchat-uikit-flutter/tree/v5), featuring a completely revamped design for enhanced usability and visual appeal. With restructured components, advanced styling options, and a streamlined integration process, v5 offers a seamless, customizable experience tailored to your needs. Try it now and elevate your development workflow!
+
 ## Prerequisites
 
 - XCode for iOS and Android Studio for Android
