@@ -1,0 +1,22 @@
+name: flutter_apns_only
+description: APNS push notification plugin. Works only on iOS. See flutter_apns for apns & firebase combo
+version: 1.6.0
+homepage: https://github.com/mwaylabs/flutter-apns
+
+environment:
+  sdk: ">=2.12.0-0 <3.0.0"
+  flutter: ">=1.12.13+hotfix.5"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: FlutterApnsPlugin

@@ -1,0 +1,54 @@
+name: cometchat_calls_uikit
+description: Flutter plugin featuring custom audio and video call widgets. Integrate seamlessly with Cometchat Chat UI Kit or use independently for streamlined development.
+version: 5.0.0-alpha.1
+homepage: https://www.cometchat.com/
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: any
+  get:  ^4.6.5
+  cometchat_sdk: ^4.0.17
+  cometchat_calls_sdk: ^4.0.9
+  cometchat_uikit_shared:
+    path: ../shared_uikit
+  flutter_svg: ^2.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+dependency_overrides:
+  cometchat_uikit_shared:
+    path: ../shared_uikit
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.cometchat.cometchat_calls_uikit
+        pluginClass: CometchatCallsUikitPlugin
+      ios:
+        pluginClass: CometchatCallsUikitPlugin
+
+  # To add assets to your plugin package, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # To add custom fonts to your plugin package, add a fonts section here,
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic

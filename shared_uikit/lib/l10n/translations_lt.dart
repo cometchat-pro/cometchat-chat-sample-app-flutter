@@ -1,0 +1,1147 @@
+import 'translations.dart';
+
+/// The translations for Lithuanian (`lt`).
+class TranslationsLt extends Translations {
+  TranslationsLt([super.locale = 'lt']);
+
+  @override
+  String get users => 'Vartotojai';
+
+  @override
+  String get chats => 'Pokalbiai';
+
+  @override
+  String get groups => 'Grupės';
+
+  @override
+  String get more => 'Daugiau';
+
+  @override
+  String get messageImage => 'Vaizdas';
+
+  @override
+  String get messageFile => 'Failas';
+
+  @override
+  String get messageVideo => 'Vaizdo įrašas';
+
+  @override
+  String get messageAudio => 'Garso';
+
+  @override
+  String get customMessage => 'Jūs turite pranešimą';
+
+  @override
+  String get missedVoiceCall => 'praleistas balso skambutis';
+
+  @override
+  String get missedVideoCall => 'praleistas vaizdo skambutis';
+
+  @override
+  String get customMessagePoll => 'Apklausa';
+
+  @override
+  String get customMessageSticker => 'Lipdukas';
+
+  @override
+  String get customMessageDocument => 'Dokumentas';
+
+  @override
+  String get customMessageWhiteboard => 'lenta';
+
+  @override
+  String get online => 'Internetu';
+
+  @override
+  String get administrator => 'administratorius';
+
+  @override
+  String get moderator => 'vedėjas';
+
+  @override
+  String get participant => 'Dalyvis';
+
+  @override
+  String get public => 'Visuomenės';
+
+  @override
+  String get private => 'privatus';
+
+  @override
+  String get passwordProtected => 'Apsaugotas slaptažodžiu';
+
+  @override
+  String get privacyAndSecurity => 'Privatumas ir saugumas';
+
+  @override
+  String get preferences => 'Nuostatos';
+
+  @override
+  String get members => 'Nariai';
+
+  @override
+  String get today => 'Šiandien';
+
+  @override
+  String get yesterday => 'Vakar';
+
+  @override
+  String get sunday => 'Sekmadienis';
+
+  @override
+  String get monday => 'Pirmadienis';
+
+  @override
+  String get tuesday => 'Antradienis';
+
+  @override
+  String get wednesday => 'Trečiadienis';
+
+  @override
+  String get thursday => 'Ketvirtadienis';
+
+  @override
+  String get friday => 'Penktadienis';
+
+  @override
+  String get saturday => 'Šeštadienis';
+
+  @override
+  String get typing => 'Rašymas...';
+
+  @override
+  String get isTyping => 'yra rašyti...';
+
+  @override
+  String get close => 'Uždaryti';
+
+  @override
+  String get enterGroupName => 'Įveskite grupės pavadinimą';
+
+  @override
+  String get addMembers => 'Pridėti narius';
+
+  @override
+  String get sendMessage => 'Siųsti žinutę';
+
+  @override
+  String get unblockUser => 'Atblokuoti vartotoją';
+
+  @override
+  String get blockUser => 'blokuoti vartotoją';
+
+  @override
+  String get deleteAndExit => 'Ištrinti ir išeiti';
+
+  @override
+  String get leaveGroup => 'Palikite grupę';
+
+  @override
+  String get createGroup => 'Sukurti grupę';
+
+  @override
+  String get sharedMedia => 'Bendra žiniasklaida';
+
+  @override
+  String get videoCall => 'Vaizdo skambutis';
+
+  @override
+  String get audioCall => 'Garso skambutis';
+
+  @override
+  String get loading => 'Pakrovimas...';
+
+  @override
+  String get reply => 'Atsakymas';
+
+  @override
+  String get replies => 'Atsakymai';
+
+  @override
+  String get launch => 'Pradėti';
+
+  @override
+  String get sharedCollaborativeDocument =>
+      'pasidalino bendradarbiavimo dokumentu';
+
+  @override
+  String get sharedCollaborativeWhiteboard =>
+      'pasidalino bendradarbiavimo lenta';
+
+  @override
+  String get createdWhiteboard => 'Sukūrėte naują bendradarbiavimo lentą';
+
+  @override
+  String get createdDocument => 'Sukūrėte naują “SomCollaborative” dokumentą';
+
+  @override
+  String get photos => 'Nuotraukos';
+
+  @override
+  String get videos => 'Vaizdo įrašai';
+
+  @override
+  String get document => 'Dokumentas';
+
+  @override
+  String get youDeletedThisMessage => 'Jūs ištrynėte šį pranešimą';
+
+  @override
+  String get thisMessageDeleted => 'Šis pranešimas buvo ištrintas';
+
+  @override
+  String get viewOnYoutube => 'Peržiūrėti “Youtube”';
+
+  @override
+  String get search => 'Paieška';
+
+  @override
+  String get noUsersFound => 'Vartotojų nerasta';
+
+  @override
+  String get error => 'Klaida';
+
+  @override
+  String get noGroupsFound => 'Nerasta jokių grupių';
+
+  @override
+  String get noChatsFound => 'Pokalbių nerasta';
+
+  @override
+  String get mediaMessage => 'Žiniasklaidos pranešimas';
+
+  @override
+  String get incomingAudioCall => 'Įeinantis garso skambutis';
+
+  @override
+  String get incomingVideoCall => 'Įeinantis vaizdo skambutis';
+
+  @override
+  String get decline => 'Mažėti';
+
+  @override
+  String get accept => 'Priimti';
+
+  @override
+  String get callInitiated => 'Kvietimas inicijuotas';
+
+  @override
+  String get outgoingAudioCall => 'Išeinantis garso skambutis';
+
+  @override
+  String get outgoingVdeoCall => 'Išeinantis vaizdo skambutis';
+
+  @override
+  String get callRejected => 'Kvietimas atmestas';
+
+  @override
+  String get rejectedCall => 'atmestas skambutis';
+
+  @override
+  String get callAccepted => 'Kvietimas priimtas';
+
+  @override
+  String get joined => 'prisijungė';
+
+  @override
+  String get leftTheCall => 'paliko skambutį';
+
+  @override
+  String get unansweredAudioCall => 'Neatsakytas garso skambutis';
+
+  @override
+  String get unansweredVideoCall => 'Neatsakytas vaizdo skambutis';
+
+  @override
+  String get callEnded => 'Skambinti baigėsi';
+
+  @override
+  String get callCancelled => 'Kvietimas atšauktas';
+
+  @override
+  String get callBusy => 'Skambinkite';
+
+  @override
+  String get calling => 'Skambina...';
+
+  @override
+  String get add => 'Pridėti';
+
+  @override
+  String get noBannedMembersFound => 'Nerasta uždraustų narių';
+
+  @override
+  String get bannedMembers => 'Uždrausti nariai';
+
+  @override
+  String get name => 'Vardas';
+
+  @override
+  String get scope => 'Apimtis';
+
+  @override
+  String get unban => 'Unban';
+
+  @override
+  String get selectGroupType => 'Pasirinkite grupės tipą';
+
+  @override
+  String get enterGroupPassword => 'Įvesti grupės slaptažodį';
+
+  @override
+  String get create => 'Sukurti';
+
+  @override
+  String get createPoll => 'Sukurti apklausą';
+
+  @override
+  String get question => 'Klausimas';
+
+  @override
+  String get enterYourQuestion => 'Įveskite savo klausimą';
+
+  @override
+  String get options => 'Nustatymai';
+
+  @override
+  String get enterYourOption => 'Įveskite parinktį';
+
+  @override
+  String get addNewOption => 'Pridėti naują parinktį';
+
+  @override
+  String get viewMembers => 'Peržiūrėti narius';
+
+  @override
+  String get details => 'Detalės';
+
+  @override
+  String get notifications => 'Pranešimai';
+
+  @override
+  String get other => 'Kita';
+
+  @override
+  String get help => 'Pagalba';
+
+  @override
+  String get reportProblem => 'Pranešti apie problemą';
+
+  @override
+  String get groupMembers => 'Grupės nariai';
+
+  @override
+  String get ban => 'Ban';
+
+  @override
+  String get kick => 'Kick';
+
+  @override
+  String get pickYourEmoji => 'Pasirinkite savo jaustuką';
+
+  @override
+  String get privateGroup => 'Privati grupė';
+
+  @override
+  String get protectedGroup => 'Saugoma grupė';
+
+  @override
+  String get visit => 'apsilankymas';
+
+  @override
+  String get attach => 'Pridėti';
+
+  @override
+  String get attachFile => 'Prisegti failą';
+
+  @override
+  String get attachVideo => 'Prisegti vaizdo';
+
+  @override
+  String get attachAudio => 'Prisegti garso';
+
+  @override
+  String get attachImage => 'Prisegti vaizdą';
+
+  @override
+  String get collaborateUsingDocument =>
+      'Bendradarbiavimas naudojant dokumentą';
+
+  @override
+  String get collaborateUsingWhiteboard => 'Bendradarbiauti naudojant lentą';
+
+  @override
+  String get emoji => 'Emoji';
+
+  @override
+  String get enterYourMessageHere => 'Įveskite savo pranešimą čia';
+
+  @override
+  String get noMessagesFound => 'Pranešimų nerasta';
+
+  @override
+  String get thread => 'Siūlai';
+
+  @override
+  String get collaborativeDocument => 'Bendradarbiavimo dokumentas';
+
+  @override
+  String get collaborativeWhiteboard => 'Bendradarbiavimo lenta';
+
+  @override
+  String get addReaction => 'Pridėti reakciją';
+
+  @override
+  String get noStickersFound => 'Jokių lipdukų';
+
+  @override
+  String get replyToThread => 'Atsakyti į siūlą';
+
+  @override
+  String get replyInThread => 'Atsakyti temoje';
+
+  @override
+  String get deleteMessage => 'Ištrinti pranešimą';
+
+  @override
+  String get editMessage => 'Redaguoti pranešimą';
+
+  @override
+  String get owner => 'Savininkas';
+
+  @override
+  String get changeScope => 'Keisti taikymo sritį';
+
+  @override
+  String get sticker => 'Lipdukas';
+
+  @override
+  String get lastActiveAt => 'Paskutinis Aktyvus';
+
+  @override
+  String get voiceCall => 'Balso skambutis';
+
+  @override
+  String get viewDetail => 'Peržiūrėti išsamią informaciją';
+
+  @override
+  String get votes => 'balsų';
+
+  @override
+  String get vote => 'balsas';
+
+  @override
+  String get noVote => 'Nėra balsavimo';
+
+  @override
+  String get reacted => 'sureagavo';
+
+  @override
+  String get added => 'pridėta';
+
+  @override
+  String get unbanned => 'neuždraustas';
+
+  @override
+  String get made => 'pagamintas';
+
+  @override
+  String get callUnanswered => 'Kvietimas neatsakytas';
+
+  @override
+  String get missedAudioCall => 'praleistas garso skambutis';
+
+  @override
+  String get enterYourPassword => 'Įveskite slaptažodį';
+
+  @override
+  String get docs => 'Dokumentai';
+
+  @override
+  String get noRecordsFound => 'Įrašų nerasta';
+
+  @override
+  String get liveReaction => 'Gyva reakcija';
+
+  @override
+  String get smileyPeople => 'Šypsenėlės ir žmonės';
+
+  @override
+  String get animalsNature => 'Gyvūnai ir gamta';
+
+  @override
+  String get foodDrink => 'Maistas ir gėrimai';
+
+  @override
+  String get activity => 'Veikla';
+
+  @override
+  String get travelPlaces => 'Kelionės ir vietos';
+
+  @override
+  String get objects => 'objektai';
+
+  @override
+  String get symbols => 'simboliai';
+
+  @override
+  String get flags => 'Vėliavos';
+
+  @override
+  String get sent => 'Išsių';
+
+  @override
+  String get seen => 'Matytas';
+
+  @override
+  String get delivered => 'Pristatytas';
+
+  @override
+  String get translateMessage => 'Versti žinutę';
+
+  @override
+  String get left => 'liko';
+
+  @override
+  String get kicked => 'spardė';
+
+  @override
+  String get banned => 'uždraustas';
+
+  @override
+  String get newMessages => 'naujos žinutės';
+
+  @override
+  String get newMessage => 'nauja žinutė';
+
+  @override
+  String get jump => 'Peršokti';
+
+  @override
+  String get selectVideoSource => 'Pasirinkite vaizdo įrašo šaltinį';
+
+  @override
+  String get selectInputAudioSource => 'Pasirinkite įvesties garso šaltinį';
+
+  @override
+  String get selectOutputAudioSource => 'Pasirinkite išvesties garso šaltinį';
+
+  @override
+  String get initiatedGroupCall => 'inicijavo grupės skambutį';
+
+  @override
+  String get youInitiatedGroupCall => 'Jūs inicijavote grupės skambutį';
+
+  @override
+  String get ignore => 'ignoruoti';
+
+  @override
+  String get onAnotherCall => 'yra kitas skambutis';
+
+  @override
+  String get creating => 'Kurti';
+
+  @override
+  String get avatar => 'Avataras';
+
+  @override
+  String get ongoingCall => 'Vykstantis skambutis';
+
+  @override
+  String get youAlreadyOngoingCall => 'Jūs jau esate vykstančiame skambutyje';
+
+  @override
+  String get resize => 'Resize';
+
+  @override
+  String get settings => 'Nustatymai';
+
+  @override
+  String get actions => 'veiksmai';
+
+  @override
+  String get viewProfile => 'Peržiūrėti profilį';
+
+  @override
+  String get sendMessageInPrivate => 'Siųsti žinutę privačiai';
+
+  @override
+  String get delete => 'Ištrinti';
+
+  @override
+  String get deleteConfirm =>
+      'Ar norėtumėte ištrinti šį pokalbį? Šis pokalbis bus ištrintas iš visų jūsų įrenginių';
+
+  @override
+  String get cancel => 'Atšaukti';
+
+  @override
+  String get leaveConfirm => 'Ar tikrai norite palikti grupę?';
+
+  @override
+  String get transferConfirm =>
+      'Jūs esate grupės savininkas, prieš palikdami grupę, perduokite nuosavybę nariui';
+
+  @override
+  String get adding => 'Pridedant...';
+
+  @override
+  String get transfer => 'Perkėlimas';
+
+  @override
+  String get transferring => 'Perkėlimas';
+
+  @override
+  String get yes => 'Taip';
+
+  @override
+  String get no => 'Ne';
+
+  @override
+  String get somethingWrong => 'Kažkas nutiko, pabandykite dar kartą';
+
+  @override
+  String get invalidGroupName =>
+      'Įveskite galiojantį grupės pavadinimą ir bandykite dar kartą';
+
+  @override
+  String get invalidPassword =>
+      'Įveskite galiojantį grupės slaptažodį ir bandykite dar kartą';
+
+  @override
+  String get invalidGroupType =>
+      'Įveskite galiojantį grupės tipą ir bandykite dar kartą';
+
+  @override
+  String get wrongPassword =>
+      'Įveskite teisingą slaptažodį ir bandykite dar kartą';
+
+  @override
+  String get invalidPollQuestion =>
+      'Prieš kurdami apklausą, įveskite reikiamą klausimą';
+
+  @override
+  String get invalidPollOption =>
+      'Prieš kurdami apklausą, įveskite reikiamą atsakymą';
+
+  @override
+  String get sameLanguageMessage =>
+      'Pasirinkta vertimo kalba yra panaši į originalaus pranešimo kalbą';
+
+  @override
+  String get leave => 'Palikite';
+
+  @override
+  String get clickToStartConversation =>
+      'Spustelėkite, jei norite pradėti pokalbį';
+
+  @override
+  String get customMessageLocation => '📍 Vieta';
+
+  @override
+  String get sharedLocation => 'Bendrai naudojama vieta';
+
+  @override
+  String get inAThread => 'Siūle ⤵';
+
+  @override
+  String get calls => 'skambučiai';
+
+  @override
+  String get offline => 'Neprisijungęs';
+
+  @override
+  String get you => 'Tu';
+
+  @override
+  String get privacy => 'privatumas';
+
+  @override
+  String get blockedUsers => 'Užblokuoti vartotojai';
+
+  @override
+  String get youHaveBlocked => 'Jūs užblokavote';
+
+  @override
+  String get noPhotos => 'Nėra nuotraukų';
+
+  @override
+  String get noVideos => 'Nėra vaizdo įrašų';
+
+  @override
+  String get noDocuments => 'Nėra dokumentų';
+
+  @override
+  String get join => 'Prisijunkite';
+
+  @override
+  String get peopleVoted => 'Žmonės balsavo';
+
+  @override
+  String get setTheAnswers => 'NUSTATYKITE ATSAKYMUS';
+
+  @override
+  String get addAnotherAnswer => 'Pridėti dar vieną atsakymą';
+
+  @override
+  String get answer => 'Atsakymas';
+
+  @override
+  String get cantLoadMessages =>
+      'Negalite įkelti pranešimų. Bandykite dar kartą';
+
+  @override
+  String get tryGain => 'BANDYKITE DAR KARTĄ';
+
+  @override
+  String get cantLoadChats => 'Negalite įkelti pokalbių. Bandykite dar kartą';
+
+  @override
+  String get noChatsYet => 'Jokių pokalbių dar nėra';
+
+  @override
+  String get takePhoto => 'Fotografuokite';
+
+  @override
+  String get photoAndVideoLibrary => 'Nuotraukų ir vaizdo įrašų biblioteka';
+
+  @override
+  String get imageLibrary => 'Vaizdų biblioteka';
+
+  @override
+  String get videoLibrary => 'Vaizdo įrašų biblioteka';
+
+  @override
+  String get message => 'Žinutė';
+
+  @override
+  String get noMessagesHereYet => 'Nėra Žinutės čia dar';
+
+  @override
+  String get selectReaction => 'Pasirinkite reakciją';
+
+  @override
+  String get audio => 'Garso';
+
+  @override
+  String get openDocument => 'Atidaryti dokumentą';
+
+  @override
+  String get openWhiteboard => 'Atviras lenta';
+
+  @override
+  String get openDocumentSubtitle =>
+      'Atidarykite dokumentą, kad kartu redaguotumėte turinį';
+
+  @override
+  String get openWhiteboardSubtitle =>
+      'Atidarykite lentą, kad sukurtumėte kartu';
+
+  @override
+  String get messageIsDeleted => 'Pranešimas ištrintas';
+
+  @override
+  String get file => 'failas';
+
+  @override
+  String get sharedFile => 'Bendrasis failas';
+
+  @override
+  String get view => 'Peržiūrėti';
+
+  @override
+  String get edit => 'Redaguoti';
+
+  @override
+  String get startThread => 'Pradėti siūlą';
+
+  @override
+  String get share => 'Dalintis';
+
+  @override
+  String get copyText => 'Kopijuoti tekstą';
+
+  @override
+  String get forward => 'Persiųsti';
+
+  @override
+  String get information => 'Informacija';
+
+  @override
+  String get translate => 'Išversti';
+
+  @override
+  String get text => 'Tekstas';
+
+  @override
+  String get location => 'Vieta';
+
+  @override
+  String get poll => 'Apklausa';
+
+  @override
+  String get deleteCapital => 'IŠTRINTI';
+
+  @override
+  String get cancelCapital => 'ATŠAUKTI';
+
+  @override
+  String get errorInternetUnavailable => 'Internetas negalimas';
+
+  @override
+  String get somethingWentWrongError => 'Kažkas nutiko';
+
+  @override
+  String get ok => 'O';
+
+  @override
+  String get password => 'Password';
+
+  @override
+  String get protected => 'Protected';
+
+  @override
+  String get newGroup => 'New Group';
+
+  @override
+  String get incorrectPassword => 'Incorrect Password';
+
+  @override
+  String get pleaseTryAnotherPassword => 'Please try another password';
+
+  @override
+  String get okay => 'OKAY';
+
+  @override
+  String get enterPasswordToAccess => 'Enter password to access';
+
+  @override
+  String get group => 'group';
+
+  @override
+  String get groupPassword => 'Group Password';
+
+  @override
+  String get areYouSureUnsafeContent =>
+      'Ar tikrai norite pamatyti nesaugų turinį';
+
+  @override
+  String get unsafeContent => 'Nesaugus turinys';
+
+  @override
+  String get failedToLoadImage => 'Nepavyko įkelti vaizdo';
+
+  @override
+  String get transferOwnership => 'Trasferisci la proprietà';
+
+  @override
+  String get outgoingCall => 'Chiamata in uscita';
+
+  @override
+  String get incomingCall => 'Chiamata in arrivo';
+
+  @override
+  String get missedCall => '«Chiamata persa';
+
+  @override
+  String get forwardingMessage => 'Inoltro messaggio...';
+
+  @override
+  String get maxSelectionLimitIs => 'Il limite massimo di selezione è';
+
+  @override
+  String get connecting => 'Connessione in corso...';
+
+  @override
+  String get messageInformation => 'Informazioni sui messaggi';
+
+  @override
+  String get sendMessagePrivately => 'Invia messaggio in privato';
+
+  @override
+  String get read => 'Leggi';
+
+  @override
+  String get noRecipient => 'Nessun destinatario';
+
+  @override
+  String get receiptInformation => 'Informazioni sulla ricevuta';
+
+  @override
+  String get formMessage => 'Modulo';
+
+  @override
+  String get cardMessage => 'Carta';
+
+  @override
+  String get goalAchievedSuccessfully => 'Obiettivo raggiunto con successo';
+
+  @override
+  String get smartReplies => 'Risposte intelligenti';
+
+  @override
+  String get conversationStarters => 'Avviatori di conversazione';
+
+  @override
+  String get noRepliesFound => 'Nessuna risposta trovata';
+
+  @override
+  String get suggestAReply => 'Suggerisci una risposta';
+
+  @override
+  String get generatingIceBreakers => 'Generazione di rompighiaccio';
+
+  @override
+  String get generatingReplies => 'Generazione di risposte';
+
+  @override
+  String get cancelledAudioCall => 'Chiamata audio annullata';
+
+  @override
+  String get cancelledVideoCall => 'Videochiamata annullata';
+
+  @override
+  String get rejectedAudioCall => 'Chiamata audio rifiutata';
+
+  @override
+  String get rejectedVideoCall => 'Videochiamata rifiutata';
+
+  @override
+  String get recording => 'Registrazione';
+
+  @override
+  String get participants => 'Partecipanti';
+
+  @override
+  String get history => 'Storia';
+
+  @override
+  String get noCallLogsFound => 'Nessun registro delle chiamate trovato';
+
+  @override
+  String get callDetail => 'Dettagli della chiamata';
+
+  @override
+  String get initiator => 'Iniziatore';
+
+  @override
+  String get callHistory => 'Cronologia chiamate';
+
+  @override
+  String get noCallHistoryFound => 'Nessuna cronologia delle chiamate trovata';
+
+  @override
+  String get noRecordingsFound => 'Nessuna registrazione trovata';
+
+  @override
+  String get noCallsFound => 'Nessuna chiamata trovata';
+
+  @override
+  String get ongoingAudioCall => 'Chiamata audio in corso';
+
+  @override
+  String get ongoingVideoCall => 'Videochiamata in corso';
+
+  @override
+  String get cancelledCall => 'Chiamata annullata';
+
+  @override
+  String get unansweredCall => 'Chiamata senza risposta';
+
+  @override
+  String get video => 'Video';
+
+  @override
+  String get noParticipantsFound => 'Nessun partecipante trovato';
+
+  @override
+  String get askBot => 'Chiedi al bot';
+
+  @override
+  String get conversationSummary => 'Riepilogo della conversazione';
+
+  @override
+  String get ask => 'Come';
+
+  @override
+  String get bot => 'bo';
+
+  @override
+  String get generatingSummary => 'Generazione di un riepilogo';
+
+  @override
+  String get pleaseTryAgain => 'Per favore riprova';
+
+  @override
+  String get bookNewSlot => 'Prenota un nuovo slot';
+
+  @override
+  String get yourSlotHasBeenBooked => 'Il tuo posto è stato prenotato';
+
+  @override
+  String get pleaseTryNewSlot => 'prova un nuovo slot';
+
+  @override
+  String get hi => 'Ciao';
+
+  @override
+  String get yourAppointmentIsScheduledWith =>
+      'Il tuo appuntamento è programmato con';
+
+  @override
+  String get hereAreYourDetails => 'Ecco i tuoi dati';
+
+  @override
+  String get selectTime => 'Seleziona un orario';
+
+  @override
+  String get selectDay => 'Seleziona un giorno';
+
+  @override
+  String get timeZone => 'Fuso orario';
+
+  @override
+  String get meeting => 'Riunione';
+
+  @override
+  String get moreTimes => 'Più volte';
+
+  @override
+  String get schedule => 'Pianificazione';
+
+  @override
+  String get meetingCannotBeScheduled =>
+      'La riunione non può essere pianificata';
+
+  @override
+  String get tryAgain => 'Prova di nuovo';
+
+  @override
+  String get timeSlotUnavailable =>
+      'Le fasce orarie non sono disponibili. Seleziona un\'altra data';
+
+  @override
+  String get meetingWith => 'Riunione con';
+
+  @override
+  String get schedulerMessage => 'Messaggio Scheduler';
+
+  @override
+  String get enterText => 'Įveskite tekstą';
+
+  @override
+  String get selectOption => 'Pasirinkite parinktį';
+
+  @override
+  String get noReactionsFound => 'Nerasta jokių reakcijų';
+
+  @override
+  String get all => 'Visi';
+
+  @override
+  String get tapToRemove => 'Bakstelėkite, kad pašalintumėte';
+
+  @override
+  String get mentionsMaxLimitHit =>
+      'Žinutėje galite paminėti tik 10 vartotojų.';
+
+  @override
+  String get copy => 'Kopijuoti';
+
+  @override
+  String get info => 'Informacija';
+
+  @override
+  String get messagePrivately => 'Pranešimas Privatel';
+
+  @override
+  String get newChat => 'Naujas pokalbis';
+
+  @override
+  String get typeYourMessage => 'Įveskite savo pranešimą...';
+
+  @override
+  String get oops => 'Oi!';
+
+  @override
+  String get looksLikeSomethingWrong => 'Panašu, kad kažkas nutiko.';
+
+  @override
+  String get startNewChatOrInvite => 'Inizia una nuova chat o invita altri a unirsi alla conversazione.';
+
+  @override
+  String get noConversationsYet => "Nessuna conversazione ancora.";
+
+  @override
+  String get textTranslated => 'Tekstas išverstas';
+
+  @override
+  String get lastSeen => 'Paskutinį kartą matytas';
+
+  @override
+  String get minuteAgo => 'prieš minutę';
+
+  @override
+  String get minutesAgo => 'prieš kelias minutes';
+
+  @override
+  String get at => 'prie';
+
+  @override
+  String get retry => 'Pabandykite iš naujo';
+
+  @override
+  String get popScreenDisabled => 'Iššokantis ekranas išjungtas. Bakstelėkite atšaukti skambutį mygtuką.';
+
+  @override
+  String get usersUnavailable => 'Nėra naudotojų';
+
+  @override
+  String get usersUnavailableMessage => 'Neradome vartotojų, atitinkančių jūsų paiešką. Pabandykite koreguoti paiešką.';
+
+  @override
+  String get save => 'Išsaugoti';
+
+  @override
+  String get changeScopeSubtitle => 'Galite keisti vaidmenis, kad galėtumėte valdyti grupės leidimus ir atsakomybę.';
+
+  @override
+  String get remove => 'Pašalinti';
+
+  @override
+  String get admin => 'Administratorius';
+
+  @override
+  String get unsupportedMessageType => 'Šis pranešimo tipas nepalaikomas';
+
+  @override
+  String get addOption => 'Pridėti parinktį';
+
+  @override
+  String get pollEmptyString => 'Prašome užpildyti visus privalomus laukus prieš kuriant apklausą.';
+
+  @override
+  String get askQuestion => 'Užduoti klausimą';
+
+  @override
+  String get deleteConversation => 'Ištrinti šį pokalbį?';
+
+  @override
+  String get confirmDeleteConversation =>
+      'Ar tikrai norite ištrinti šį pokalbį? Šio veiksmo atšaukti negalima.';
+
+  @override
+  String get errorUnableToDeleteConversation =>
+      'Klaida, nepavyko ištrinti pokalbio';
+
+  @override
+  String get addContactsToStartConversations =>
+      'Pridėkite kontaktus, kad pradėtumėte pokalbius ir matytumėte juos išvardytus čia.';
+
+  @override
+  String get edited => 'Redaguota';
+
+  @override
+  String get deleteMessageWarning => 'Ar tikrai norite ištrinti šį pranešimą? Šio veiksmo negalima atšaukti.';
+
+}

@@ -1,0 +1,93 @@
+# General Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+.cocoapods/
+.idea/
+*.iml
+
+# macOS specific
+.DS_Store
+
+# Android
+android/.gradle/
+android/.idea/
+android/local.properties
+**/build/
+**/out/
+
+# iOS
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Web
+web/.dart_tool/
+web/build/
+
+# Windows
+windows/.dart_tool/
+windows/build/
+
+# Linux
+linux/.dart_tool/
+linux/build/
+
+# Master App
+master_app/.dart_tool/
+master_app/.flutter-plugins
+master_app/.flutter-plugins-dependencies
+master_app/.packages
+master_app/build/
+master_app/.idea/
+master_app/*.iml
+master_app/.vscode/
+
+# Calls UI Kit
+calls_uikit/.dart_tool/
+calls_uikit/.flutter-plugins
+calls_uikit/.flutter-plugins-dependencies
+calls_uikit/.packages
+calls_uikit/build/
+calls_uikit/.idea/
+calls_uikit/*.iml
+calls_uikit/.vscode/
+
+# Chat UI Kit
+chat_uikit/.dart_tool/
+chat_uikit/.flutter-plugins
+chat_uikit/.flutter-plugins-dependencies
+chat_uikit/.packages
+chat_uikit/build/
+chat_uikit/.idea/
+chat_uikit/*.iml
+chat_uikit/.vscode/
+
+# Shared UI Kit
+shared_uikit/.dart_tool/
+shared_uikit/.flutter-plugins
+shared_uikit/.flutter-plugins-dependencies
+shared_uikit/.packages
+shared_uikit/build/
+shared_uikit/.idea/
+shared_uikit/*.iml
+shared_uikit/.vscode/
+
+# Firebase
+**/ios/GoogleService-Info.plist
+**/android/app/google-services.json
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.temp

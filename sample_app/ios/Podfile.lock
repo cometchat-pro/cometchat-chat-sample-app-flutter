@@ -1,0 +1,107 @@
+PODS:
+  - cometchat_calls_sdk (4.0.10):
+    - CometChatCallsSDK (= 4.0.6)
+    - Flutter
+  - cometchat_calls_uikit (5.0.0-alpha.1):
+    - Flutter
+  - cometchat_chat_uikit (5.0.0-alpha.1):
+    - Flutter
+  - cometchat_sdk (4.0.18):
+    - CometChatSDK (= 4.0.53)
+    - Flutter
+  - cometchat_uikit_shared (5.0.0-alpha.1):
+    - Flutter
+  - CometChatCallsSDK (4.0.6):
+    - CometChatWebRTC (= 1.106.1)
+  - CometChatSDK (4.0.53)
+  - CometChatWebRTC (1.106.1)
+  - Flutter (1.0.0)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - cometchat_calls_sdk (from `.symlinks/plugins/cometchat_calls_sdk/ios`)
+  - cometchat_calls_uikit (from `.symlinks/plugins/cometchat_calls_uikit/ios`)
+  - cometchat_chat_uikit (from `.symlinks/plugins/cometchat_chat_uikit/ios`)
+  - cometchat_sdk (from `.symlinks/plugins/cometchat_sdk/ios`)
+  - cometchat_uikit_shared (from `.symlinks/plugins/cometchat_uikit_shared/ios`)
+  - Flutter (from `Flutter`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - CometChatCallsSDK
+    - CometChatSDK
+    - CometChatWebRTC
+
+EXTERNAL SOURCES:
+  cometchat_calls_sdk:
+    :path: ".symlinks/plugins/cometchat_calls_sdk/ios"
+  cometchat_calls_uikit:
+    :path: ".symlinks/plugins/cometchat_calls_uikit/ios"
+  cometchat_chat_uikit:
+    :path: ".symlinks/plugins/cometchat_chat_uikit/ios"
+  cometchat_sdk:
+    :path: ".symlinks/plugins/cometchat_sdk/ios"
+  cometchat_uikit_shared:
+    :path: ".symlinks/plugins/cometchat_uikit_shared/ios"
+  Flutter:
+    :path: Flutter
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/darwin"
+
+SPEC CHECKSUMS:
+  cometchat_calls_sdk: 1b975a2f8e7b75d3c49e606ff1b43a6a56a20049
+  cometchat_calls_uikit: 17af85e17b212bfa297d2ef3d46af92bcb31a5cc
+  cometchat_chat_uikit: 7eaa502ef8c2d83d881b9a2f25c31ef839a3f525
+  cometchat_sdk: e567e858a2eebc153f191bcd171ad14806ebec22
+  cometchat_uikit_shared: ef12755e45642b47be24c3de54e9729b1787419b
+  CometChatCallsSDK: 121b36c761d5f244cc9608c44a15a2a8c02ee877
+  CometChatSDK: 321d0d84110c60287397ca4c28c6e3b3638d7214
+  CometChatWebRTC: c08f446967168f6de442b48b824623411651dbb5
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  image_picker_ios: 7fe1ff8e34c1790d6fff70a32484959f563a928a
+  path_provider_foundation: 080d55be775b7414fd5a5ef3ac137b97b097e564
+  permission_handler_apple: 4ed2196e43d0651e8ff7ca3483a069d469701f2d
+  shared_preferences_foundation: 9e1978ff2562383bd5676f64ec4e9aa8fa06a6f7
+  url_launcher_ios: 694010445543906933d732453a59da0a173ae33d
+  video_player_avfoundation: 2cef49524dd1f16c5300b9cd6efd9611ce03639b
+  webview_flutter_wkwebview: 1821ceac936eba6f7984d89a9f3bcb4dea99ebb2
+
+PODFILE CHECKSUM: 116a810f6aad1ef92fdc369a2e40f6dd16b6401a
+
+COCOAPODS: 1.16.2

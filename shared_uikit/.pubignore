@@ -1,0 +1,43 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#Example file
+#example/*
+#!example/lib
+#!example/integration_test
+
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+build/
+pubspec.lock
+.DS_Store
+
+example/ios
+example/android
+example/README.md
+example/lib/
+example/assets
+
+examples/
+doc/
+
+test/*
+
+credentials.ini
+publish_cloudsmith.sh

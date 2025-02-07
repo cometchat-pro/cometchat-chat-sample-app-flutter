@@ -1,0 +1,12 @@
+{
+    "aps": {
+        "category": "MEETING_INVITATION",
+        "alert": {
+            "title": "Weekly Staff Meeting",
+            "body": "Every Tuesday at 2pm"
+        }
+    },
+    "MEETING_ID": "123456789",
+    "USER_ID": "ABCD1234",
+    "Simulator Target Bundle": "com.pgs-soft.pszot.Sample"
+}
