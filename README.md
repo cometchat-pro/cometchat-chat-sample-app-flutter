@@ -18,12 +18,12 @@ This reference application showcases the integration of [**CometChat's Flutter U
 ## Installation
 1. Clone the repository:
 	```
-	git clone https://github.com/cometchat/cometchat-sample-app-flutter.git
+	git clone https://github.com/cometchat/cometchat-uikit-flutter.git
 	```
 
 2. Navigate to the project directory:
 	```sh
-	cd cometchat-sample-app-flutter
+	cd cometchat-uikit-flutter
 	```
 
 3. Install flutter dependencies
@@ -32,9 +32,9 @@ This reference application showcases the integration of [**CometChat's Flutter U
 	```
 
 4. Enter your CometChat _`App ID`_, _`Region`_, and _`Auth Key`_ in the [lib/app_constants.dart](lib/app_constants.dart) file:
-   https://github.com/cometchat/cometchat-sample-app-flutter/blob/68a5a3257ad7cfe3ac06a1c9b7de8f94f8ae4227/lib/app_constants.dart#L1-L5
+   https://github.com/cometchat/cometchat-uikit-flutter/blob/68a5a3257ad7cfe3ac06a1c9b7de8f94f8ae4227/lib/app_constants.dart#L1-L5
 
-5.  If your app is created before August 12th, 2024 then change the sample data URL to `https://assets.cometchat.io/sampleapp/v1/sampledata.json` in the [lib/services/api_services.dart](https://github.com/cometchat/cometchat-sample-app-flutter/blob/v4/lib/services/api_services.dart) file: https://github.com/cometchat/cometchat-sample-app-flutter/blob/68a5a3257ad7cfe3ac06a1c9b7de8f94f8ae4227/lib/services/api_services.dart#L13-L15
+5.  If your app is created before August 12th, 2024 then change the sample data URL to `https://assets.cometchat.io/sampleapp/v1/sampledata.json` in the [lib/services/api_services.dart](https://github.com/cometchat/cometchat-uikit-flutter/blob/v4/lib/services/api_services.dart) file: https://github.com/cometchat/cometchat-uikit-flutter/blob/68a5a3257ad7cfe3ac06a1c9b7de8f94f8ae4227/lib/services/api_services.dart#L13-L15
 
 6. For iOS, install dependencies after navigating to ios :
 	```sh
